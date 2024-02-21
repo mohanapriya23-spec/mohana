@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mohana Priya - Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="mohana.html">Mohana Priya</a>
+            </div>
+            <div class="nav-links" id="sidemenu">
+                <a  href="mohana.html">Home</a>
+                <a href="aboutme.html">About Me</a>
+                <img class="fas" src="close_FILL0_wght400_GRAD0_opsz24 (1).svg" onclick="closemenu()" alt="">
+               
+
+                
+            <div class="dropdown">
+                <a href="#">Case Study<span class="dropdown-icon">&#9660;</span></a>
+            <div class="dropdown-content">
+                <a href="onthewaygo.html">On the way go grub</a>
+                <!-- <a href="#">Responsive Site</a>
+                 <a href="#">Social Good App</a> -->
+
+             </div>
+           
+            </div>
+            </div>
+            </div>
+        </nav>
+        <img class="fas fas2" src="hammenuVector.svg" onclick="openmenu()" alt="">
+        
+        
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>Hi, I'm Mohana</h1>
+        <p class="intro-text">
+            I Paint Journeys, User-centered, Of Course.
+        </p>     
+        <p> 
+            UI/UX  designer passionate about solving user problems
+            through intuitive designs.
+        </p>
+        
+    </section>
+
+    <section class="image">
+       <a href="onthewaygo.html"><img class="desk-img" src="Group 273.svg" alt=""></a>
+       <a  href="onthewaygo.html"><img  class="resp-img" src="Group 273 resp.svg" alt=""></a>
+    </section>
+
+    <!-- Add more sections for your portfolio, skills, etc. -->
+
+    <footer>
+        <div class="connect">
+            <p>Let's connect</p>
+            <a href="mailto:mohanapriya1506001@gmail.com"><img src="mailVector.svg" alt=""></a>
+            <a class="whatsapp" href="https://wa.me/6383828139"><img src="Social Icons.svg" alt=""></a>
+
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Mohana Priya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.left ="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.left ="-200px";
+        }
+    </script>
+
+</body>
+</html>
+
+

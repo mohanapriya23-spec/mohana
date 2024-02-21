@@ -1,0 +1,282 @@
+
+body {
+    font-family:'Arial', sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #666666;
+   
+    
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+    color: #fff;
+    padding: 15px;
+}
+
+h1 {
+    color: #333333;
+    font-size: 2em;
+}
+
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 1em;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    /* padding-left: 2em; */
+    
+}
+
+.nav-links a:hover,
+.nav-links a:active {
+    color: #FF66C3;
+}
+
+
+
+
+img {
+  
+   align-items: center;
+}
+.image a {
+   color: #5339ff;
+   font-size: 22px;
+   text-align: center;
+   letter-spacing: .5px;
+   align-items: center;
+   
+   color: lightseagreen;
+   
+}
+.dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Styling for the link that triggers the dropdown */
+        .dropdown a {
+            padding: 10px;
+            /* background-color: #3498db; */
+            color: #fff;
+            text-decoration: none;
+            display: inline-block;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Styling for the dropdown content */
+        .dropdown .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        /* Styling for each dropdown item */
+        .dropdown .dropdown-content a {
+            color: #333;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Highlight on hover for dropdown items */
+        .dropdown .dropdown-content a:hover {
+            background-color: #ddd;
+            width: auto;
+        }
+
+        /* Show the dropdown content when the link is hovered or focused */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    font-size: 18px;
+    padding: 1em;
+    /* background-color: #fff; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+}
+.image {
+    padding-right: 13em;
+    border-radius: 1px;
+    
+}
+
+
+.intro-text {
+    color: #FF66C3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    
+}
+
+.connect {
+    margin-top: 20px;
+  
+}
+.whatsapp {
+    padding-left: 1em;
+}
+
+.copyright {
+    margin-top: 20px;
+    
+}
+
+.fas {
+    display: none;
+}
+
+.resp-img {
+    display: none;
+}
+
+/* -------------------css for small screen-------------- */
+@media only screen and (max-width: 600px){
+
+   
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: .1px;
+       
+    }
+
+    section {
+        font-size: 15px;
+        text-align: center;
+        padding-left: 2em;
+    }
+    h1 {
+        font-size: 2em;
+       
+        
+    }
+   .fas {
+    display: block;
+    padding: 1em;
+     }
+
+
+   .fas2 img {
+   color: #f9f9f9;
+    padding-right: 18em; 
+   text-align: justify;
+   padding-top: 1em;
+   }
+   .nav-links {
+    
+    background-color: #ffe6f5;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    height: 100vh;
+    z-index: 2;
+  } 
+  .nav-links a {
+    color: #333;
+    display: block;
+    margin: 25px;
+    margin-top: 2.5em;
+}
+  .home {
+    margin-top: 10em;
+  }
+
+  .dropdown a {
+    color: #333;
+    display: block;
+    margin: 10px;
+    padding-top: 0;
+    margin-top: 1.8em;
+  }
+  .nav-links .fas{
+    position: absolute;
+    top: .1px;
+    left: .1px;
+    cursor: pointer;
+  }
+.logo {
+  display: none;
+}
+
+.resp-img {
+    display: block;
+}
+
+.desk-img {
+    display: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    /* padding: 1px; */
+    text-align: center;
+    
+    
+    
+}
+
+.connect {
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 1px;
+  
+}
+
+.connect p {
+    margin-right: 20px;
+    padding-left: 7em;
+    margin-top: 1em;
+    
+}
+
+
+
+
+.copyright {
+    margin-top: 1px;
+    
+}
+
+.whatsapp {
+    padding-top: .2em;
+}
+
+
+}
